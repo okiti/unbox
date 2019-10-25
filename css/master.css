@@ -488,7 +488,7 @@ b, .strong {
 
 .fancy-font {
   font-family: "Roboto Mono", monospace;
-  font-size: 41px;
+  font-size: 20px;
 }
 
 .avatar-holder {
@@ -499,12 +499,16 @@ b, .strong {
   width: 200px;
 }
 
-.icon-holder a {
+.icon-holder {
   padding: 9px;
 }
 
-.icon {
+.icon i {
   font-size: 35px;
+}
+
+.icon i:hover {
+  color: #FFF;
 }
 
 /*# sourceMappingURL=master.css.map */
