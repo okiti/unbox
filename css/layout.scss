@@ -19,10 +19,10 @@ $fancy-font: 'Roboto Mono', monospace;
 }
 body{
   position: relative;
-  font-size: 16px;
-  font-family: sans-serif;
-  font-weight: 300;
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
   line-height: 1.5;
+  height: 100vh;
   color: $secondary-color;
   background: $primary-color;
 }
@@ -280,22 +280,33 @@ h6{font-size: 1em;}
 b, .strong {
   font-weight: bold;
 }
+
 .fancy-font {
-    font-family: $fancy-font;
-    font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 25px;
 }
-.avatar-holder{
-  width: 210px; 
-}
+
 .avatar {
-  width: 200px;
+  width: 100px;
+  object-fit: contain;
 }
-.icon-holder{
+
+.icon-holder {
   padding: 9px;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 20px;
 }
-.icon i{
+
+.icon i {
   font-size: 35px;
+  color: #FFF;
+}
+.sm-img {
+  width: 100px;
+  object-fit: contain;
+  margin-right: 8px;
 }
 .icon i:hover {
-  color: #FFF;
+  color: #CCC;
 }
