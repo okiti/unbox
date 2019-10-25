@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono|Sacramento&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -23,6 +23,7 @@ body {
   font-family: "Roboto Mono", monospace;
   line-height: 1.5;
   height: 100vh;
+  overflow: hidden;
   color: #FFF;
   background: #000;
 }
@@ -489,6 +490,12 @@ b, .strong {
 .fancy-font {
   font-family: "Roboto Mono", monospace;
   font-size: 25px;
+}
+
+.cto {
+  font-family: "Sacramento", cursive;
+  font-size: 41px;
+  margin-top: 20px;
 }
 
 .avatar {

@@ -1,8 +1,9 @@
 // Today 22nd Oct 2019
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Sacramento&display=swap');
 $primary-color: #000;
 $secondary-color: #FFF;
 $fancy-font: 'Roboto Mono', monospace;
+$cursive-font: 'Sacramento', cursive;
 
 *{
   margin: 0;
@@ -23,6 +24,7 @@ body{
   font-family: "Roboto Mono", monospace;
   line-height: 1.5;
   height: 100vh;
+  overflow: hidden;
   color: $secondary-color;
   background: $primary-color;
 }
@@ -285,7 +287,11 @@ b, .strong {
   font-family: "Roboto Mono", monospace;
   font-size: 25px;
 }
-
+.cto {
+  font-family: $cursive-font;
+  font-size: 41px;
+  margin-top: 20px;
+}
 .avatar {
   width: 100px;
   object-fit: contain;
